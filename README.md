@@ -24,6 +24,13 @@ In your `.bashrc` file (usually found at ~/.bashrc), add:
 alias md2html="FULL_PATH_TO_MD2HTML"
 ```
 
+Reboot your machine or run the following in the terminal:
+```
+. ~/.bashrc
+```
+
+You should now be able to use md2html from anywhere on the command line.
+
 ## Usage
 
 ## License
