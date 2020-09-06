@@ -35,7 +35,7 @@ Reboot your machine or run the following in the terminal:
 . ~/.bashrc
 ```
 
-You should now be able to use md2html from anywhere on the command line.
+You should now be able to use ***md2html*** from anywhere on the command line.
 
 ## Usage
 > An example css file (`custom.css`) has been provided in this repository.
