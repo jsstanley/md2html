@@ -6,7 +6,7 @@
 ██║ ╚═╝ ██║██████╔╝███████╗██║  ██║   ██║   ██║ ╚═╝ ██║███████╗
 ╚═╝     ╚═╝╚═════╝ ╚══════╝╚═╝  ╚═╝   ╚═╝   ╚═╝     ╚═╝╚══════╝
 ```
-***md2html*** is a [bash](https://www.gnu.org/software/bash/) program that creates [html](https://html.spec.whatwg.org/) files with custom [css](https://www.w3.org/Style/CSS/) from a specified directory of [markdown](https://en.wikipedia.org/wiki/Markdown) files in one command using [pandoc](https://www.pandoc.org).
+***md2html*** is a [bash](https://www.gnu.org/software/bash/) program that creates [html](https://html.spec.whatwg.org/) files with custom [css](https://www.w3.org/Style/CSS/) from a specified directory of [markdown](https://en.wikipedia.org/wiki/Markdown) files using [pandoc](https://www.pandoc.org).
 
 ## Dependencies
 
