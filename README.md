@@ -49,6 +49,8 @@ md2html ~/notes/md/ ~/notes/css/
 1. The first argument specifies the directory path containing the markdown files
 1. The second argument specifies the directory containing the custom css file
 
+***md2html*** will create a directory of html files within the directory of markdown files that was specified. For the above example, the html directory would be `~/notes/md/html/`.
+
 ## License
 
 [GNU General Public License, version 2 (GPLv2)](https://www.gnu.org/licenses/old-licenses/gpl-2.0.txt)
