@@ -32,6 +32,16 @@ Reboot your machine or run the following in the terminal:
 You should now be able to use md2html from anywhere on the command line.
 
 ## Usage
+> An example css file has been provided in this repository.
+
+```
+md2html ~/notes/md/ ~/notes/css/
+```
+
+***md2html*** requires two positional arguments:
+
+1. The first argument specifies the directory path containing the markdown files
+1. The second argument specifies the directory containing the custom css file
 
 ## License
 
