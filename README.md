@@ -32,7 +32,7 @@ Reboot your machine or run the following in the terminal:
 You should now be able to use md2html from anywhere on the command line.
 
 ## Usage
-> An example css file has been provided in this repository.
+> An example css file (`custom.css`) has been provided in this repository.
 
 ```
 md2html ~/notes/md/ ~/notes/css/
