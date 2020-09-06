@@ -14,7 +14,7 @@
 ### Clone the repo
 
 ```
-git clone https://www.github.com/jsstanley/md2html.git
+git clone https://www.github.com/jsstanley/md2html.git/
 ```
 
 ### Create an alias to use md2html easily (optional but recommended)
