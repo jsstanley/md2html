@@ -46,8 +46,8 @@ md2html ~/notes/md/ ~/notes/css/
 
 ***md2html*** requires two positional arguments:
 
-1. The directory path containing the markdown files
-1. The directory path containing the custom css file
+1. The **absolute** directory path containing the markdown files
+1. The **absolute** directory path containing the custom css file
 
 ***md2html*** will create a directory of html files within the directory of markdown files that was specified. For the above example, the html directory would be `~/notes/md/html/`.
 
