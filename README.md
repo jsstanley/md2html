@@ -53,4 +53,4 @@ md2html ~/notes/md/ ~/notes/css/
 
 ## License
 
-[GNU General Public License, version 2 (GPLv2)](https://www.gnu.org/licenses/old-licenses/gpl-2.0.txt)
+© 2020 [Jay Stanley](https://www.jss.place). Released under the [GNU General Public License, version 2 (GPLv2)](https://www.gnu.org/licenses/old-licenses/gpl-2.0.txt).
