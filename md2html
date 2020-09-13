@@ -2,7 +2,7 @@
 
 # purpose: md2html exports a dir of md files into html using pandoc
 # author: Jay Stanley (jss.place)
-# updated: 2020-09-06
+# updated: 2020-09-13
 
 # requires the following args in positional order:
     # arg 1 specifies the dir of md files
@@ -34,10 +34,10 @@ do
     then
         echo "WARNING: ${filename%.*}.html already existed but overwriting it now"
         rm $1html/${filename%.*}.html
-        pandoc -s --self-contained -c $2*.css --metadata title="${filename%.*}" $file -o $1html/"${filename%.*}.html"
+        pandoc -s --self-contained --resource-path=.:$1 -c $2*.css --metadata title="${filename%.*}" $file -o $1html/"${filename%.*}.html"
     else
         echo "INFO: Creating ${filename%.*}.html"
-        pandoc -s --self-contained -c $2*.css --metadata title="${filename%.*}" $file -o $1html/"${filename%.*}.html"
+        pandoc -s --self-contained --resource-path=.:$1 -c $2*.css --metadata title="${filename%.*}" $file -o $1html/"${filename%.*}.html"
     fi
 done
 echo "INFO: All html files have been created"
